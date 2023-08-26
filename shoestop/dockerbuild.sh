@@ -8,5 +8,5 @@ IMAGE_TAG="1.0"
 DF_PATH="."
 
 # Build the Docker image
-docker build -t "$IMAGE_NAME:$IMAGE_TAG" "$DOCKERFILE_PATH"
+docker build -t "$IMAGE_NAME:$IMAGE_TAG" "$DF_PATH"
 
