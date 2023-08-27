@@ -1,12 +1,12 @@
 #!/bin/bash
 
-IMAGE="vickypandiyan007/shoestop:tagname"
+IMAGE="vickypandiyan007/shoestop:1.0"
 
 #Pushing the Docker Image to Deploy
 docker pull $IMAGE
 
 # Set container name
-NAME="shoestop_webapp"
+NAME="--name shoestop_webapp"
 
 # Set the Port
 PORT="-p 5000:5000"
